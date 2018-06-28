@@ -23,3 +23,14 @@ go.work.sum
 
 # env file
 .env
+image/tiff/tests/raw
+import*
+test/output/
+writer/test/written
+**/tests/raw/raws/*
+.DS_Store
+*.log
+lr
+**/test/*
+!**/test/input/
+!pkg/lister/test/resources/

@@ -1,0 +1,33 @@
+package tiff
+
+// DNG fields
+const (
+	DNGAdobeData           = "DNGAdobeData"
+	DNGVersion             = "DNGVersion"
+	DNGBackwardVersion     = "DNGBackwardVersion"
+	UniqueCameraModel      = "UniqueCameraModel"
+	LocalizedCameraModel   = "LocalizedCameraModel"
+	CFAPlaneColor          = "CFAPlaneColor"
+	CFALayout              = "CFALayout"
+	ColorMatrix1           = "ColorMatrix1"
+	ColorMatrix2           = "ColorMatrix2"
+	CameraCalibration1     = "CameraCalibration1"
+	CameraCalibration2     = "CameraCalibration2"
+	ReductionMatrix1       = "ReductionMatrix1"
+	ReductionMatrix2       = "ReductionMatrix2"
+	AnalogBalance          = "AnalogBalance"
+	AsShotNeutral          = "AsShotNeutral"
+	AsShotWhiteXY          = "AsShotWhiteXY"
+	BaselineExposure       = "BaselineExposure"
+	BaselineNoise          = "BaselineNoise"
+	BaselineSharpness      = "BaselineSharpness"
+	BayerGreenSplit        = "BayerGreenSplit"
+	LinearResponseLimit    = "LinearResponseLimit"
+	DNGLensInfo            = "DNGLensInfo"
+	ChromaBlurRadius       = "ChromaBlurRadius"
+	AntiAliasStrength      = "AntiAliasStrength"
+	ShadowScale            = "ShadowScale"
+	MakerNoteSafety        = "MakerNoteSafety"
+	CalibrationIlluminant1 = "CalibrationIlluminant1"
+	CalibrationIlluminant2 = "CalibrationIlluminant2"
+)
