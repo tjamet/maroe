@@ -143,7 +143,16 @@ func NewPictureFromFilePath(path string) (*Picture, error) {
 		CaptureTime: captureTime,
 		Name:        prefix + basename + "_" + checksum,
 		Checksum:    checksum,
-		Reader:      fd,
+		Reader:      &hookedReader{Reader: fd},
 		original:    path,
 	}, nil
+}
+
+type hookedReader struct {
+	io.Reader
+}
+
+func (h *hookedReader) Read(p []byte) (int, error) {
+	n, err := h.Reader.Read(p)
+	return n, err
 }

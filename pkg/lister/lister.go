@@ -28,6 +28,9 @@ func (l *Lister) Start(path string) chan *picture.Picture {
 		}
 
 		err = filepath.Walk(path, func(path string, info os.FileInfo, err error) error {
+			if info == nil {
+				return fmt.Errorf("Invalid file %s", path)
+			}
 			if info.IsDir() {
 				return nil
 			}
