@@ -52,10 +52,14 @@ github.com/stretchr/testify v1.7.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/stretchr/testify v1.8.0/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO+kdMU+MU=
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
+github.com/stretchr/testify v1.10.0 h1:Xv5erBjTwe/5IxqUQTdXv5kgmIvbHo3QQyRwhJsOfJA=
+github.com/stretchr/testify v1.10.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 github.com/tjamet/goraw v0.0.0-20180809200652-5dea60ad6621 h1:mur0XpRHJLK9TcO54DZDVHWTIGypIpRn/N1TGwnZlyE=
 github.com/tjamet/goraw v0.0.0-20180809200652-5dea60ad6621/go.mod h1:raiD4Szbeomkd/DvjEOYSrImJZeJu/ehGsnuWj8kVbk=
 github.com/tjamet/goraw v0.0.0-20240403090754-b4fab498278c h1:Cc4VIwtkHw+ChPl4lpMgFxJS/ZL18kUxH0n5Mp2VRFo=
 github.com/tjamet/goraw v0.0.0-20240403090754-b4fab498278c/go.mod h1:e2i3Wp/tG4JMbHU6kEVZw7Y79Y04MOgwqAwyzafvX9c=
+github.com/tjamet/ssh-client-config v0.0.0-20241126012751-71b07752850e h1:rdpMHNaSp4JDlWhDEzNca5NM/7rIMLWaD7AhecFgP9c=
+github.com/tjamet/ssh-client-config v0.0.0-20241126012751-71b07752850e/go.mod h1:26/Ar+gMlQYk1lgdt+GZbazSS85UCJ97oOTVcarcHBI=
 github.com/yuin/goldmark v1.4.13/go.mod h1:6yULJ656Px+3vBD8DxQVa3kxgyrAnzto9xy5taEt/CY=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20210921155107-089bfa567519/go.mod h1:GvvjBRRGRdwPK5ydBHafDWAxML/pGHZbMvKqRZ5+Abc=

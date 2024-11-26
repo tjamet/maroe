@@ -12,7 +12,7 @@ import (
 	"github.com/spf13/afero/sftpfs"
 	"github.com/tjamet/maroe/pkg/copy"
 	"github.com/tjamet/maroe/pkg/writer"
-	"github.com/tjamet/sshClientConfig"
+	"github.com/tjamet/ssh-client-config"
 	"golang.org/x/crypto/ssh"
 
 	"github.com/docopt/docopt-go"
@@ -26,7 +26,7 @@ Options:
 `
 
 func loadSSHConfig(host string) (string, *ssh.ClientConfig, error) {
-	sshClientConfig.Log = func(level int, format string, args ...interface{}) {
+	sshclientconfig.Log = func(level int, format string, args ...interface{}) {
 		if level < 5 {
 			log.Printf(format, args...)
 		}
@@ -35,7 +35,7 @@ func loadSSHConfig(host string) (string, *ssh.ClientConfig, error) {
 		return "", nil, fmt.Errorf("invalid URL %s. Missing host name", host)
 	}
 
-	cfg := sshClientConfig.NewSSHClientConfig("")
+	cfg := sshclientconfig.NewSSHClientConfig("")
 	sshcfg, err := cfg.SSHClientConfig(host)
 	if err != nil {
 		return "", nil, fmt.Errorf("failed to get SSH client config: %v", err)
